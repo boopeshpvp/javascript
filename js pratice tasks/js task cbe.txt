@@ -1,0 +1,11 @@
+Do this task on the online JS compiler.
+Copy all the questions, comment on them, and write the code (code backup is necessary).
+
+1. Check if a number is positive, negative, or zero.
+2. Check if the given number is a strong number or not.
+3. Print all the prime numbers between the given intervals.
+4. Reverse the number using the arithmetic operator.
+5. Print the odd and even numbers between the given intervals.
+
+
+https://javascript.info/localstorage

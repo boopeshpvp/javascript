@@ -1,0 +1,56 @@
+* {
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0px;
+}
+
+.inputContainer {
+    padding: 22px 30px;
+    text-align: left;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.submit {
+    padding: 15px 30px;
+    font-size: 22px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.error {
+    color: red;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.result {
+    color: green;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.container {
+    width: 60%;
+    margin: 13% auto;
+    padding: 10px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.headingText {
+    padding: 35px;
+    text-decoration: underline;
+}
+
+.submitButton {
+    margin: 20px 2px;
+}
+
+.inputFont {
+    font-size: 20px;
+}

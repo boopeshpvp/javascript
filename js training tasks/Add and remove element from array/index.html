@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add and remove element from an array</title>
+    <script src="./assets/index1.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="headingText">
+            <h2>Add and remove element from an array</h2>
+        </div>
+        <div class="validation"> 
+            <div>
+                Input:
+                <input type="text" name="input" id="userInput" class="inputContainer inputFont"
+                    placeholder="Input should be in A,B,C,D format">
+            </div>
+            <div id="error1" class="error inputFont"></div>
+            <div>
+                Position:
+                <input type="text" name="position" id="position" class="inputContainer inputFont"
+                    placeholder="positive number only allowed">
+    
+            </div>
+            <div id="error2" class="error inputFont"></div>
+            <div>
+                New element:
+                <input type="text" name="replace" id="replaceInput" class="inputContainer inputFont"
+                    placeholder="New element for add the array">
+            </div>
+            <div id="error3" class="error inputFont"></div>
+        </div>
+        <div id="error" class="error inputFont"></div>
+        <div class="submitButton">
+            <button onclick="arrayFunction()" class="submit inputFont">submit</button>
+            <button onclick="reset()" class="submit inputFont">reset</button>
+        </div>
+        <div id="result" class="result inputFont"></div>
+    </div>
+</body>
+
+</html>

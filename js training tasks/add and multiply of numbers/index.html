@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sum and multiply of numbers</title>
+        <script src="./assets/index.js"></script>
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="headingText">
+                <h1>Addition and Multiplication of Numbers</h1>
+            </div>
+            <input type="text" name="text" id="textfield" class="inputContainer inputFont">
+            <div id="error" class="error inputFont"></div>
+            <div class="submitButton">
+                <button onclick="calculation('Addition')" class="submit inputFont">Add</button>
+                <button onclick="calculation('Multiplication')" class="submit inputFont">Multiply</button>
+                <button onclick="reset()" class="submit inputFont">Reset</button>
+            </div>
+            <div class="empty"></div>
+            <input type="text" name="result" id="answer" class="inputContainer inputFont" readonly>
+        </div>
+    </body>
+</html>
